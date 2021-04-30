@@ -20,7 +20,7 @@ fetch('http://192.168.1.19/Api-JatNet/PasswordsRepetidores.php')
                <ion-grid>
                 <ion-row>
                  <ion-col>
-                  <ion-button expand="full" color="danger" id="getDeleteItem" onclick="getIdItem(${idItem});" shape="round">Eliminar</ion-button>
+                  <ion-button expand="full" color="danger" id="getDeleteItem" onclick="getIdItem(${idItem})" shape="round">Eliminar</ion-button>
                 </ion-col>
                 </ion-row>
               </ion-grid>
@@ -31,13 +31,13 @@ fetch('http://192.168.1.19/Api-JatNet/PasswordsRepetidores.php')
 
         let ButtonDelete = document.getElementById('getDeleteItem');
         
-        let getIdItem  = (id) => {
-          console.log(id);
-        }
+        
 
     }
 
-
+    let getIdItem  = (id) => {
+      console.log(id);
+    }
 
 
     const searchbar = document.querySelector('ion-searchbar');
