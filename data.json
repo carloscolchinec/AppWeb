@@ -1,0 +1,98 @@
+[
+   {
+      "id_repetidor":"69",
+      "nombre_repetidor":"Repetidor Local 12",
+      "password_repetidor":"12345671234567",
+      "ubicacion_repetidor":"Babahoyo"
+   },
+   {
+      "id_repetidor":"70",
+      "nombre_repetidor":"Repetidor Torre Local 3",
+      "password_repetidor":"12345671234567",
+      "ubicacion_repetidor":"Babahoyo"
+   },
+   {
+      "id_repetidor":"71",
+      "nombre_repetidor":"Repetidor San Juan",
+      "password_repetidor":"12345671234567",
+      "ubicacion_repetidor":"San Juan"
+   },
+   {
+      "id_repetidor":"72",
+      "nombre_repetidor":"Repetidor La Verona",
+      "password_repetidor":"12345671234567",
+      "ubicacion_repetidor":"La Verona"
+   },
+   {
+      "id_repetidor":"73",
+      "nombre_repetidor":"Repetidor Local",
+      "password_repetidor":"123456123456",
+      "ubicacion_repetidor":"Babahoyo"
+   },
+   {
+      "id_repetidor":"74",
+      "nombre_repetidor":"Repetidor Federico",
+      "password_repetidor":"ZXCVBNMASD",
+      "ubicacion_repetidor":"Federico"
+   },
+   {
+      "id_repetidor":"75",
+      "nombre_repetidor":"Repetidor Nedetel 1",
+      "password_repetidor":"$123456712345672627$",
+      "ubicacion_repetidor":"Babahoyo"
+   },
+   {
+      "id_repetidor":"76",
+      "nombre_repetidor":"Repetidor 1",
+      "password_repetidor":"123456123456",
+      "ubicacion_repetidor":"La isla de Bejucal"
+   },
+   {
+      "id_repetidor":"77",
+      "nombre_repetidor":"Repetidor 24",
+      "password_repetidor":"12345671234567",
+      "ubicacion_repetidor":"El 24"
+   },
+   {
+      "id_repetidor":"78",
+      "nombre_repetidor":"Repetidor Jat",
+      "password_repetidor":"jatnet128",
+      "ubicacion_repetidor":"Palo"
+   },
+   {
+      "id_repetidor":"79",
+      "nombre_repetidor":"Repetidor La teresa",
+      "password_repetidor":"1234567812345678",
+      "ubicacion_repetidor":"La teresa"
+   },
+   {
+      "id_repetidor":"80",
+      "nombre_repetidor":"Repetido Loma",
+      "password_repetidor":"12345671234567",
+      "ubicacion_repetidor":"Loma 4"
+   },
+   {
+      "id_repetidor":"81",
+      "nombre_repetidor":"Repetidor San Francisco",
+      "password_repetidor":"123456123456",
+      "ubicacion_repetidor":"San Francisco"
+   },
+   {
+      "id_repetidor":"82",
+      "nombre_repetidor":"Repetidor Piladora Sanchez",
+      "password_repetidor":"$12345671234567$",
+      "ubicacion_repetidor":"Piladora Sanchez"
+   },
+   {
+      "id_repetidor":"83",
+      "nombre_repetidor":"Repetidor 24 de Mayo",
+      "password_repetidor":"MA12RU56TU",
+      "ubicacion_repetidor":"24 de Mayo"
+   },
+   {
+      "id_repetidor":"84",
+      "nombre_repetidor":"Repetidor Simon Bolivar",
+      "password_repetidor":"12345671234567",
+      "ubicacion_repetidor":"Simón Bolivar"
+   }
+]
