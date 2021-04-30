@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<title></title>
+	<!-- Ionic -->
+	<script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+	<script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css"/>
+	<script type="module">
+    	import { modalController } from 'https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/index.esm.js';
+    	window.modalController = modalController;
+  	</script>
+	<!-- Bootstrap -->
+	<link rel="stylesheet" type="text/css" href="plugins/bootstrap/css/bootstrap.css">
+	<!-- Main css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/CHome.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/CRepetidor.css">
+</head>
+<body>
+
+	<ion-tabs>
+
+  <ion-tab tab="tabHome">
+    <ion-nav class="bgHome">
+    		<div id="CardsHome"></div>
+    </ion-nav>
+  </ion-tab>
+
+  <ion-tab tab="tabRepetidor">
+   <ion-nav class="bgRepetidor">
+   	<ion-content fullscreen>
+   		<ion-searchbar placeholder="Buscar"></ion-searchbar>
+   		<ion-grid>
+   			    <ion-row>
+          <ion-col>
+            <div><ion-button expand="full" shape="round">Agregar</ion-button></div>
+          </ion-col>
+        </ion-row>
+   		</ion-grid>
+   		<ion-list id="ListRepetidores">
+   		</ion-list>
+   	</ion-content>
+    </ion-nav>
+  </ion-tab>
+
+  <ion-tab tab="tabCliente">
+    <ion-nav>
+    	
+    </ion-nav>
+  </ion-tab>
+
+  <ion-tab-bar slot="bottom">
+    <ion-tab-button tab="tabHome">
+      <ion-icon name="planet-outline"></ion-icon>
+      <ion-label>Inicio</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button tab="tabRepetidor">
+      <ion-icon name="wifi-outline"></ion-icon>
+      <ion-label>Repetidores</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button tab="tabCliente">
+      <ion-icon name="people-outline"></ion-icon>
+      <ion-label>Clientes</ion-label>
+    </ion-tab-button>
+  </ion-tab-bar>
+
+</ion-tabs>
+
+<!-- Components -->
+<script type="text/javascript" src="components/ComponentHome.js"></script>
+<script type="text/javascript" src="components/ComponentRepetidores.js"></script>
+	
+</body>
+</html>
